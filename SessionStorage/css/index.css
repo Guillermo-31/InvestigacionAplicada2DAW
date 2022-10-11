@@ -3,6 +3,18 @@
 	margin: 0
 }
 
+h1{
+	text-align: center;
+	border: 1px;
+	padding: 8px;
+	background-color: lightcoral;
+	margin: 16px;
+	background-color: light;
+	font-family: cursive;
+		border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 p{
 	padding: 10px;
 	margin: 10px;
