@@ -1,10 +1,10 @@
 var bd;
 function iniciar(){
-	zonadatos=documen.getElementById("zonadatos");
+	zonadatos=document.getElementById("zonadatos");
 
 	boton=document.getElementById("guardar");
 
-	bton.addEventListener("click",agregarobjeto,false);
+	boton.addEventListener("click",agregarObjeto,false);
 
 	var solicitud=indexedDB.open("ejemplo");
 
@@ -16,7 +16,7 @@ function iniciar(){
 	solicitud.onupgradeneeded=function(e){
 
 		bd=e.target.result;
-		bd.createObjectStore("persona", {keyPath:"contraseña"});
+		bd.createObjectStore("persona", {keyPath:"clave"});
 	}
 
 
@@ -26,12 +26,16 @@ function iniciar(){
 function agregarObjeto(){
 	var clave=document.getElementById("clave").value;
 	var titulo=document.getElementById("texto").value;
-	var fecha=document.getElementById("fecha").value;
+	var Fecha=document.getElementById("fecha").value;
 
-	var transaccion=bd.transaction(["persona", "redwrite"]);
+	var transaccion=bd.transaction(["persona"], "readwrite");
 	var almacen=transaccion.objectStore("persona");
 
-	var agregar=almacen.add({clave: clave, titulo: titulo, fecha:fecha})
+	var agregar=almacen.add({clave: clave, titulo: titulo, Fecha:fecha});
+
+	document.getElementById("clave").value=""
+	document.getElementById("texto").value=""
+	document.getElementById("fecha").value=""
 }
 
 
