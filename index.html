@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,49 +9,63 @@
     <script src="slider.js"></script>
     <title>Informacion aplicada</title>
 </head>
+
 <body>
-    
+
     <section class="slider">
         <div class="content_container">
             <h1>SessionStorage</h1>
-            <button><a href="SessionStorage/index.html">Ejemplo de SessionStorage</a></button>
+            <a href="SessionStorage/index.html"></a><button>Ver Ejemplo</button></a>
         </div>
         <div class="slides">
             <div class="slide">
-               <div class="inner_content">
-                <h1>Función</h1>
-                <p>La principal función de esta propiedad se centra en poder acceder a un objeto
-                    asociado dentro de la sesión que este activa en ese momento. Esta propiedad
-                    puede ser relacionada con la propiedad LocalStorage ya que la única diferencia
-                    que poseen es que toda la información que pueda ser almacenada en la propiedad
-                    LocalStorage no posee fecha de expiración a diferencia de la propiedad
-                    SessionStorage que una vez cerrada la sesión se elimina esta información.
-                    La sesión de la página perdura mientras el navegador se encuentra abierto, y se
-                    mantiene por sobre las recargas y reaperturas de la página. Abrir una página en
-                    una nueva pestaña o ventana iniciará una nueva sesión, lo que difiere en la forma
-                    en que trabajan las cookies de sesión.
+                <div class="inner_content">
+                    <h1>Función</h1>
+                    <p>La principal función de esta propiedad se centra en poder acceder a un objeto
+                        asociado dentro de la sesión que este activa en ese momento. Esta propiedad
+                        puede ser relacionada con la propiedad LocalStorage ya que la única diferencia
+                        que poseen es que toda la información que pueda ser almacenada en la propiedad
+                        LocalStorage no posee fecha de expiración a diferencia de la propiedad
+                        SessionStorage que una vez cerrada la sesión se elimina esta información.
+                        La sesión de la página perdura mientras el navegador se encuentra abierto, y se
+                        mantiene por sobre las recargas y reaperturas de la página. Abrir una página en
+                        una nueva pestaña o ventana iniciará una nueva sesión, lo que difiere en la forma
+                        en que trabajan las cookies de sesión.
                     </p>
-               </div>
+                </div>
             </div>
             <div class="slide">
                 <div class="inner_content">
                     <h1>Sintaxis</h1>
                     <p>// Almacena la información en sessionStorage
-                        sessionStorage.setItem('key', 'value');
-                        // Obtiene la información almacenada desde sessionStorage
-                        var data = sessionStorage.getItem('key');</p>
+                        <b>sessionStorage.setItem('key', 'value');</b><br>
+                        // Obtiene la información almacenada desde <b>sessionStorage var data =
+                            sessionStorage.getItem('key');</b>
+                    </p>
                 </div>
             </div>
             <div class="slide">
                 <div class="inner_content">
                     <h1>Ventajas y desventajas</h1>
                     <p>Ventajas
-                        • El acceso a la información es rápido, dado que los datos se almacenan de
-                        la manera llave-valor
-                        Desventajas
-                        • Los valores se pierden una vez que se cierra la ventana
-                        • Los valores que almacena no pueden ser compartidos entre más de una
-                        ventana</p>
+                    <ul>
+                        <li>
+                            El acceso a la información es rápido, dado que los datos se almacenan de la manera
+                            llave-valor
+                        </li>
+                    </ul>
+                    Desventajas
+                    <ul>
+                        <li>
+                            Los valores se pierden una vez que se cierra la ventana
+                        </li>
+
+                        <li>
+                            Los valores que almacena no pueden ser compartidos entre más de una
+                            ventana
+                        </li>
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
@@ -59,25 +74,25 @@
     <section class="slider">
         <div class="content_container">
             <h1>LocalStorage</h1>
-            <button><a href="localstorage/index.html">Ejemplo de localstorage</a></button>
+            <a href="localStorage/local-ejem.html"></a><button>Ver Ejemplo</button></a>
 
         </div>
         <div class="slides">
             <div class="slide">
-               <div class="inner_content">
-                <h1>Función</h1>
-                <p>La principal función de esta propiedad se centra en poder acceder a un objeto
-                    asociado dentro de la sesión que este activa en ese momento. Esta propiedad
-                    puede ser relacionada con la propiedad LocalStorage ya que la única diferencia
-                    que poseen es que toda la información que pueda ser almacenada en la propiedad
-                    LocalStorage no posee fecha de expiración a diferencia de la propiedad
-                    SessionStorage que una vez cerrada la sesión se elimina esta información.
-                    La sesión de la página perdura mientras el navegador se encuentra abierto, y se
-                    mantiene por sobre las recargas y reaperturas de la página. Abrir una página en
-                    una nueva pestaña o ventana iniciará una nueva sesión, lo que difiere en la forma
-                    en que trabajan las cookies de sesión.
+                <div class="inner_content">
+                    <h1>Función</h1>
+                    <p>La principal función de esta propiedad se centra en poder acceder a un objeto
+                        asociado dentro de la sesión que este activa en ese momento. Esta propiedad
+                        puede ser relacionada con la propiedad LocalStorage ya que la única diferencia
+                        que poseen es que toda la información que pueda ser almacenada en la propiedad
+                        LocalStorage no posee fecha de expiración a diferencia de la propiedad
+                        SessionStorage que una vez cerrada la sesión se elimina esta información.
+                        La sesión de la página perdura mientras el navegador se encuentra abierto, y se
+                        mantiene por sobre las recargas y reaperturas de la página. Abrir una página en
+                        una nueva pestaña o ventana iniciará una nueva sesión, lo que difiere en la forma
+                        en que trabajan las cookies de sesión.
                     </p>
-               </div>
+                </div>
             </div>
             <div class="slide">
                 <div class="inner_content">
@@ -107,24 +122,24 @@
     <section class="slider">
         <div class="content_container">
             <h1>IndexedDB</h1>
-            <button><a href="localstorage/index.html">Ejemplo de IndexedDB</a></button>
+            <a href="Indexed/indexed-Ejem.html"></a><button>Ver Ejemplo</button></a>
         </div>
         <div class="slides">
             <div class="slide">
-               <div class="inner_content">
-                <h1>Función</h1>
-                <p>La principal función de esta propiedad se centra en poder acceder a un objeto
-                    asociado dentro de la sesión que este activa en ese momento. Esta propiedad
-                    puede ser relacionada con la propiedad LocalStorage ya que la única diferencia
-                    que poseen es que toda la información que pueda ser almacenada en la propiedad
-                    LocalStorage no posee fecha de expiración a diferencia de la propiedad
-                    SessionStorage que una vez cerrada la sesión se elimina esta información.
-                    La sesión de la página perdura mientras el navegador se encuentra abierto, y se
-                    mantiene por sobre las recargas y reaperturas de la página. Abrir una página en
-                    una nueva pestaña o ventana iniciará una nueva sesión, lo que difiere en la forma
-                    en que trabajan las cookies de sesión.
+                <div class="inner_content">
+                    <h1>Función</h1>
+                    <p>La principal función de esta propiedad se centra en poder acceder a un objeto
+                        asociado dentro de la sesión que este activa en ese momento. Esta propiedad
+                        puede ser relacionada con la propiedad LocalStorage ya que la única diferencia
+                        que poseen es que toda la información que pueda ser almacenada en la propiedad
+                        LocalStorage no posee fecha de expiración a diferencia de la propiedad
+                        SessionStorage que una vez cerrada la sesión se elimina esta información.
+                        La sesión de la página perdura mientras el navegador se encuentra abierto, y se
+                        mantiene por sobre las recargas y reaperturas de la página. Abrir una página en
+                        una nueva pestaña o ventana iniciará una nueva sesión, lo que difiere en la forma
+                        en que trabajan las cookies de sesión.
                     </p>
-               </div>
+                </div>
             </div>
             <div class="slide">
                 <div class="inner_content">

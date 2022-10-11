@@ -1,77 +1,72 @@
-body{
-    background-color: bisque;
-    justify-content: center;
-    font-family: sans-serif;
-    align-items: center;
-    display: flex;
-    height: 100vh;
-    margin: 0;
-    padding: 0 40px;
+body {
+  background-color: bisque;
+  justify-content: center;
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0 40px;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-button{
-    text-align: center;
-    align-items: center;
-    position: relative;
-    
+button {
+  text-align: center;
+  align-items: center;
+  position: relative;
 }
-p{
-    line-height: 1.4;
+p {
+  line-height: 1.4;
+  text-align: justify;
 }
-a{
-    color: inherit;
+a {
+  color: inherit;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-ul > * + *{
-    margin-top: 10px;
-}
-
-li{
-    display: block;
+ul > * + * {
+  margin-top: 10px;
 }
 
-
-
-li a.active{
-   font-weight: bold;
+li {
+  display: block;
 }
 
-.slider{
-    background-color: teal;
-    max-width: 1400px;
-    color: #fff;
-
-    
-
+li a.active {
+  font-weight: bold;
 }
 
-.slider .content_container{
-    padding: 40px;
+.slider {
+  background-color: teal;
+  max-width: 1400px;
+  color: #fff;
 }
 
-.slider .slides{
-    overflow-y:auto;
-    max-height: 500px;
-    scrollbar-width: none;
+.slider .content_container {
+  padding: 40px;
 }
 
-.slider .slides::-wedkit-scrollbar{
-    display: none;
+.slider .slides {
+  overflow-y: auto;
+  max-height: 500px;
+  scrollbar-width: none;
 }
 
-.slider .slides .slide{
-    min-height: calc(100% - 80%);
-    background-color: skyblue;
-    display: flex;
-    padding: 40px;
-    color: #333;
-    align-items: center;
+.slider .slides::-wedkit-scrollbar {
+  display: none;
 }
 
-.slider .slides .slide:nth-child(even){
-    background-color: aqua;
+.slider .slides .slide {
+  min-height: calc(100% - 80%);
+  background-color: skyblue;
+  display: flex;
+  padding: 40px;
+  color: #333;
+  align-items: center;
+}
+
+.slider .slides .slide:nth-child(even) {
+  background-color: aqua;
 }
