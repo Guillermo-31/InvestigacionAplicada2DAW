@@ -1,0 +1,26 @@
+*{
+	padding: 0;
+	margin: 0
+}
+
+p{
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+.titulo1{
+	text-align: center;
+	border: 1px;
+	padding: 8px;
+	background-color: lightcoral;
+	margin: 16px;
+
+}
+
+.titulo2{
+	text-align: center;
+	border: 1px;
+	padding: 8px;
+	background-color: lightsalmon;
+}

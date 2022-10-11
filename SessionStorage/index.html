@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>Web Storage API ejemplo aprenderaprogramar.com</title>
+<script type="text/javascript" src="js/ejercicio.js"></script>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<form name="formulario">
+
+    <p class="titulo1">Nombre del producto:<br><input type="text" name="producto" id="producto"></p>
+
+    <p class="titulo2">Precio:<br><input type="text" name="precio" id="precio"></p>
+
+    <p><input type="button" onclick="addProducto()" name="guardar" id="guardar" value="guardar"></p>
+
+    <p><input type="button" onclick="limpiarVista()" name="limpiar" id="limpiar" value="Limpiar Vista"></p>
+
+    <p><input type="button" onclick="borrarTodo()" name="borrar" id="borrar" value="Borrar todo"></p>
+
+</form>
+
+<br/>
+
+<div id="datosDisponibles">No hay información almacenada</div>
+
+</body>
