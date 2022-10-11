@@ -5,43 +5,35 @@
   <meta charset="UTF-8">
   <title>localStorage</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/script.js"></script>
 </head>
 
 <body>
   <h1>LOCALSTORAGE</h1>
 
-  <div id="verEjemplo">
-    <span id="btnEjemplo"></span>
-    <h3>Ver Ejemplo</h3>
+  <div class="form">
+    <label for="clave">Estudiante</label>
+    <input type="text" name="clave" id="estudiante">
   </div>
 
-  <div id="ejemplo">
-    <div id="mensaje">
-
-    </div>
-
-    <div>
-      <label for="clave">Clave</label>
-      <input type="text" name="clave" id="clave">
-    </div>
-
-    <div>
-      <label for="valor">Valor</label>
-      <input type="text" name="valor" id="valor">
-    </div>
-
-    <div>
-      <button id="add">Añadir</button>
-      <button id="eliminar">Eliminar</button>
-      <button id="mostrar">Mostrar</button>
-      <button id="limpiar">Limpiar</button>
-    </div>
-
-    <div id="datos">
-
-    </div>
+  <div class="form">
+    <label for="valor">Promedio</label>
+    <input type="number" name="valor" id="promedio">
   </div>
+
+  <div class="form">
+    <button class="btn" id="add">Añadir</button>
+    <button class="btn" id="eliminar">Eliminar</button>
+    <button class="btn" id="limpiar">Limpiar Todo</button>
+  </div>
+
+  <div id="datos">
+  </div>
+
+  <a href="../index.html">
+    <button class="btn regresar">Regresar al Inicio</button>
+  </a>
+  <script src="js/script.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

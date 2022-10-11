@@ -23,9 +23,6 @@ p {
 a {
   color: inherit;
 }
-ul {
-  list-style: none;
-}
 ul > * + * {
   margin-top: 10px;
 }
@@ -42,6 +39,7 @@ li a.active {
   background-color: teal;
   max-width: 1400px;
   color: #fff;
+  min-width: 423px;
 }
 
 .slider .content_container {
@@ -69,4 +67,18 @@ li a.active {
 
 .slider .slides .slide:nth-child(even) {
   background-color: aqua;
+}
+
+.btn {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+.link-btn {
+  text-decoration: none;
 }

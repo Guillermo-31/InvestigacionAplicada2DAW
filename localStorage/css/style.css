@@ -1,13 +1,95 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 900ms;
 }
 
-#verEjemplo{
+body {
+  background: rgb(192, 192, 192);
+  font-size: 1.2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin: auto 0.5rem;
+}
+
+button {
+  margin: auto 0.5rem;
+  padding: 0.1rem;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 1rem auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 0.8rem;
+}
+
+.titulo {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+.cuerpo {
+  font-size: 1.1rem;
+}
+
+.filaTit {
+  background: #003445;
+  color: white;
+}
+
+.filaCuerpo-Impar {
+  background: #006d91c7;
+  color: white;
+}
+
+.filaCuerpo-Par {
+  background: #3187a4ce;
+  color: black;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   cursor: pointer;
+  margin: 1rem;
 }
 
-#ejemplo{
-  display: none;
+a {
+  text-decoration: none;
+}
+
+.regresar {
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }

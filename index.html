@@ -15,7 +15,7 @@
     <section class="slider">
         <div class="content_container">
             <h1>SessionStorage</h1>
-            <a href="SessionStorage/index.html"></a><button>Ver Ejemplo</button></a>
+            <a href="SessionStorage/index.html" class='link-btn'><button class="btn">Ver Ejemplo</button></a>
         </div>
         <div class="slides">
             <div class="slide">
@@ -48,14 +48,14 @@
                 <div class="inner_content">
                     <h1>Ventajas y desventajas</h1>
                     <p>Ventajas
-                    <ul>
+                    <ul class="list-P">
                         <li>
                             El acceso a la información es rápido, dado que los datos se almacenan de la manera
                             llave-valor
                         </li>
                     </ul>
                     Desventajas
-                    <ul>
+                    <ul class="list-P">
                         <li>
                             Los valores se pierden una vez que se cierra la ventana
                         </li>
@@ -74,7 +74,7 @@
     <section class="slider">
         <div class="content_container">
             <h1>LocalStorage</h1>
-            <a href="localStorage/local-ejem.html"></a><button>Ver Ejemplo</button></a>
+            <a href="localStorage/local-ejem.html" class='link-btn'><button class="btn">Ver Ejemplo</button></a>
 
         </div>
         <div class="slides">
@@ -122,31 +122,42 @@
     <section class="slider">
         <div class="content_container">
             <h1>IndexedDB</h1>
-            <a href="Indexed/indexed-Ejem.html"></a><button>Ver Ejemplo</button></a>
+            <a href="Indexed/indexed-Ejem.html" class='link-btn'><button class="btn">Ver Ejemplo</button></a>
         </div>
         <div class="slides">
             <div class="slide">
                 <div class="inner_content">
                     <h1>Función</h1>
-                    <p>es una API de bajo nivel para el almacenamiento del lado del cliente de cantidades significativas de datos estructurados, incluidos archivos/blobs. Esta API utiliza índices para permitir búsquedas de alto rendimiento de estos datos. Si bien el almacenamiento web es útil para almacenar pequeñas cantidades de datos, es menos útil para almacenar grandes cantidades de datos estructurados. IndexedDB proporciona una solución.
+                    <p>es una API de bajo nivel para el almacenamiento del lado del cliente de cantidades significativas
+                        de datos estructurados, incluidos archivos/blobs. Esta API utiliza índices para permitir
+                        búsquedas de alto rendimiento de estos datos. Si bien el almacenamiento web es útil para
+                        almacenar pequeñas cantidades de datos, es menos útil para almacenar grandes cantidades de datos
+                        estructurados. IndexedDB proporciona una solución.
                     </p>
                 </div>
             </div>
             <div class="slide">
                 <div class="inner_content">
                     <h1>Sintaxis</h1>
-                    <p>// Para empezar a trabajar con IndexedDB, primero necesitamos conectarnos o “abrir” (open) una base de datos.
+                    <p>// Para empezar a trabajar con IndexedDB, primero necesitamos conectarnos o “abrir” (open) una
+                        base de datos.
 
-                "let openRequest = indexedDB.open(name, version)";</p>
+                        "let openRequest = indexedDB.open(name, version)";</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="inner_content">
                     <h1>Ventajas y desventajas</h1>
                     <p>Ventajas
-                        • Es una base de datos orientada a objetos basada en JavaScript
-                        • Permite almacenar y recuperar objetos que están indexados con una clave
-                        • Se puede almacenar cualquier objeto compatible con el algoritmo de clonación estructurada</p>
+                    <ul class="lista">
+                        <li>
+                            Es una base de datos orientada a objetos basada en JavaScript.
+                        </li>
+                        <li>Permite almacenar y recuperar objetos que están indexados con una clave.</li>
+                        <li>Se puede almacenar cualquier objeto compatible con el algoritmo de clonación estructurada.
+                        </li>
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
