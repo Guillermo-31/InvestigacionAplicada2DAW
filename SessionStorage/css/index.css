@@ -25,22 +25,34 @@ p{
 	background-color: lightsalmon;
 }
 
-.guadar{
+.boton1{
 		text-align: center;
 	border: 1px;
 	padding: 8px;
-	background-color: lightsalmon;
+	background-color: #4CAF50;
+	border-radius: 30px;
+	width: 100px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: right;
 }
-.limpiar{
+.boton2{
 		text-align: center;
 	border: 1px;
 	padding: 8px;
-	background-color: lightyellow;
+	background-color: blue;
+	width: 100px;
+	border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: right;
 }
 
-.borrar{
+.boton3{
 		text-align: center;
 	border: 1px;
 	padding: 8px;
-	background-color: lightgoldenrodyellow;
+	background-color: red;
+	width: 100px;
+	border-radius: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: right;
 }
