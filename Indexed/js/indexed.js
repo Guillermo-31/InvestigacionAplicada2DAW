@@ -1,12 +1,12 @@
 var bd;
 function iniciar(){
-	zonadatos=document.getElementById("zonadatos");
+	var zonadatos=document.getElementById("zonadatos");
 
-	button=document.getElementById("Guardar");
+	var boton=document.getElementById("grabar");
 
-	button.addEventListener("click",agregarObjeto,false);
+	boton.addEventListener("click",agregarObjeto,false);
 
-	var solicitud=indexedDB.open("ejemplo");
+	var solicitud=indexedDB.open("ejemplo2");
 
 	solicitud.onsuccess=function(e){
 
@@ -31,7 +31,7 @@ function agregarObjeto(){
 	var transaccion=bd.transaction(["persona"], "readwrite");
 	var almacen=transaccion.objectStore("persona");
 
-	var agregar=almacen.add({clave: clave, titulo: titulo, Fecha:Fecha});
+	var agregar=almacen.add({clave: clave, titulo: titulo, fecha:Fecha});
 
 	agregar.addEventListener("success",mostrar,false);
 
